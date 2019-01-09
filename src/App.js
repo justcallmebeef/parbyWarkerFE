@@ -3,6 +3,7 @@ import './App.css'
 import Home from './components/Home'
 import Challenge from './components/Challenge'
 import { Route, Link, Switch } from 'react-router-dom'
+import ProductProfile from './components/ProductProfile';
 
 const productAPI = "https://young-badlands-50402.herokuapp.com/"
 
@@ -11,6 +12,7 @@ class App extends Component {
     super() 
     this.state = {
       products: [], 
+      selected: ""
     }
   }
 
@@ -18,6 +20,12 @@ class App extends Component {
     fetch(productAPI)
     .then(response => response.json())
     .then(response => this.setState({ products: response.glasses}))
+  }
+
+  getProfile = (id) => {
+    this.setState({
+      selected: id 
+    })
   }
 
   getMonth = (month) => {
@@ -67,7 +75,8 @@ class App extends Component {
       <Fragment>
         <Switch>
           <Route exact path='/' component={Home} />
-          <Route path='/challenge' render={() => (<Challenge getMonth={this.getMonth} products={this.state.products} />)} />
+          <Route path='/challenge' render={() => (<Challenge getMonth={this.getMonth} products={this.state.products} getProfile={this.getProfile}/>)} />
+          <Route path='/productprofile/:id' render={() => (<ProductProfile products={this.state.products} selected={this.state.selected}/>)} />
         </Switch>
       </Fragment>
     )
