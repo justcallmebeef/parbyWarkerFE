@@ -45,6 +45,7 @@ table, td, th {
 table {
   border-collapse: collapse;
   width: 100%;
+  color: #333333;
 }
 
 th, td {
