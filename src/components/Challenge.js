@@ -4,7 +4,7 @@ import ProductTable from './ProductTable'
 const Challenge = (props) => {
     return (
         <Fragment>
-            <ProductTable products={props.products}/>
+            <ProductTable getMonth={props.getMonth} products={props.products}/>
         </Fragment>
     )
 }
