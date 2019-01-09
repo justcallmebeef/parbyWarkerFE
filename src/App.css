@@ -9,6 +9,10 @@
   background-size: cover; 
 }
 
+.challengeContainer {
+  margin: 5em; 
+}
+
 img {
   margin-left: -2.5em; 
 }
@@ -34,6 +38,23 @@ button:hover {
   color: #333333; 
 }
 
-li {
-  display: inline; 
+table, td, th {  
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+.productTable {
+  border: solid #D3D3D3 .2px; 
+}
+
+#productListing {
+  border-right: solid #D3D3D3 .2px;
 }
