@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import './App.css'
+import Home from './components/Home'
 
 const glassesAPI = "https://young-badlands-50402.herokuapp.com/"
 
@@ -7,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-        <h1>Hello World</h1>
+        <Home />
       </Fragment>
     )
   }
