@@ -6,8 +6,7 @@ const Challenge = (props) => {
         <Fragment>
             <div className="challengeContainer">
             <h1>The Challenge</h1>
-            <p>Click below to see more details.</p>
-            <ProductTable getProfile={props.getProfile} getMonth={props.getMonth} products={props.products}/>
+            <ProductTable formPopulation={props.formPopulation} deleteProduct={props.deleteProduct} getProfile={props.getProfile} getMonth={props.getMonth} products={props.products}/>
             </div>
         </Fragment>
     )
