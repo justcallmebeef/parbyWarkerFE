@@ -11,6 +11,7 @@ const ProductTable = (props) => {
         return (
             <Fragment>
                     <tr onClick={() => props.getProfile(product.id) } className="productTable">
+                        <td><img className="productImage" src={product.image} /></td>
                         <td id="productListing">Parby Warker {product.name}</td>
                         <td id="priceListing">${fixedPrice.toFixed(2)}</td>
                         <td id="codeListing">{product.code}</td>
@@ -27,6 +28,7 @@ const ProductTable = (props) => {
                 <table>
                     <tr>
                         <th>PRODUCT</th>
+                        <th></th>
                         <th>PRICE</th>
                         <th>CODE</th>
                         <th>CREATED BY</th>

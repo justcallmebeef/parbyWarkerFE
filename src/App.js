@@ -55,6 +55,7 @@ class App extends Component {
     .then(response => response.json())
     .then(response => {
       this.setState({
+        image: response[0].image, 
         name: response[0].name, 
         price: response[0].price, 
         code: response[0].code, 
@@ -65,6 +66,7 @@ class App extends Component {
 
   updateProductMethod = () => {
     let update = {
+      image: this.state.image, 
       name: this.state.name, 
       price: Number(this.state.price), 
       code: this.state.code, 

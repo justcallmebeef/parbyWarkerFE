@@ -7,7 +7,7 @@ const Home = () => {
         <Fragment>
             <div className="homeContainer">
                 <div className="logoContainer">
-                    <img src={backboneLogo}></img>
+                    <img className="backboneLogo" src={backboneLogo}></img>
                     <h1>backbone</h1>
                     <h2>coding challenge</h2>
                 </div>
