@@ -17,8 +17,8 @@ const ProductTable = (props) => {
                         <td id="codeListing">{product.code}</td>
                         <td id="creatorListing">{product.creator}</td>
                         <td id="dateListing">{month} {date}, {year}</td>
-                        <td><Link to={`/updateproduct/${product.id}`} style={{ textDecoration: 'none', color: '#333333' }}><button id={product.id} onClick={props.formPopulation}>Update</button></Link></td>
-                        <td><button id={product.id} onClick={props.deleteProduct}>Delete</button></td>
+                        <td><Link to={`/updateproduct/${product.id}`} style={{ textDecoration: 'none', color: '#333333' }}><button id={product.id} onClick={props.formPopulation}>UPDATE</button></Link></td>
+                        <td><button id={product.id} onClick={props.deleteProduct}>DELETE</button></td>
                     </tr>
             </Fragment>
         )

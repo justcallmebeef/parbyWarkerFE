@@ -12,7 +12,7 @@ const Home = () => {
                     <h2>coding challenge</h2>
                 </div>
                 <div className="buttonContainer">
-                    <Link to="/challenge"><button>Your future Dev awaits...</button></Link>
+                    <Link to="/challenge"><button className="devButton">backbone's future Dev awaits . . .</button></Link>
                 </div>
             </div>
         </Fragment>

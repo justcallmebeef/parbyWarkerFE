@@ -13,7 +13,7 @@ const UpdateProduct = (props) => {
                     <label>Product Name</label>
                     <input type="text" name="name" onChange={props.handleInput} defaultValue={products.name} required></input>
                     <label>Price</label>
-                    <input type="text" name="price" onChange={props.handleInput} defaultValue={products.price} required></input>
+                    <input type="number" name="price" onChange={props.handleInput} defaultValue={products.price} required></input>
                     <label>Code</label>
                     <input type="text" name="code" onChange={props.handleInput} defaultValue={products.code} required></input>
                     <label>Created By</label>
