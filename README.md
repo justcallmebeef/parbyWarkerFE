@@ -1,27 +1,27 @@
 # Coding Challenge
 
-This site has a list of movies and their ratings. 
+This site has a list of products being rendered from an API. 
 
 ## Deployed Website: 
 
-
+http://bb-coding-challenge.surge.sh/
 
 ## Database URL: 
 
 https://young-badlands-50402.herokuapp.com/
 
-### Technologies 
-
-React.js, Node.js, Express, HTML5/CSS3, and Javascript 
+### GitHub Repos
+Front-End: https://github.com/justcallmebeef/parbyWarkerFE
+Back-End: https://github.com/justcallmebeef/parbyWarkerBE
 
 ### Install
 
 Fork & Clone Repo
 npm install 
 
-### GitHub Repos
-Front-End: https://github.com/justcallmebeef/parbyWarkerFE
-Back-End: https://github.com/justcallmebeef/parbyWarkerBE
+### Technologies 
+
+React.js, Node.js, Express, HTML5/CSS3, and Javascript 
 
 ## Author
 
