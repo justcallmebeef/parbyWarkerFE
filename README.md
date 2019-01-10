@@ -11,13 +11,13 @@ http://bb-coding-challenge.surge.sh/
 https://young-badlands-50402.herokuapp.com/
 
 ### GitHub Repos
-Front-End: https://github.com/justcallmebeef/parbyWarkerFE
-Back-End: https://github.com/justcallmebeef/parbyWarkerBE
+* Front-End: https://github.com/justcallmebeef/parbyWarkerFE
+* Back-End: https://github.com/justcallmebeef/parbyWarkerBE
 
 ### Install
 
-Fork & Clone Repo
-npm install 
+* Fork & Clone Repo
+* npm install 
 
 ### Technologies 
 
