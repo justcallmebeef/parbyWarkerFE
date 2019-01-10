@@ -1,6 +1,6 @@
 import React, { Fragment } from "react"
-import { Link } from 'react-router-dom'
-import backboneLogo from '../backboneLogo.png'
+import { Link } from "react-router-dom"
+import backboneLogo from "../backboneLogo.png"
 
 const Home = () => {
     return (

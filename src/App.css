@@ -10,7 +10,14 @@
 }
 
 .challengeContainer {
-  margin: 5em; 
+  margin: 0em 5em 5em 5em; 
+}
+
+.backgroundImage {
+  width: 100vw; 
+  height: 100vh;
+  background-image: url("./oldSchool.jpg"); 
+  background-size: cover;
 }
 
 .backboneLogo {
@@ -19,6 +26,7 @@
 
 h1 {
   color: #333333;
+  margin: 0; 
 }
 
 h2 {
@@ -31,6 +39,7 @@ button {
   background-color: #333333; 
   color: white; 
   font-size: 15px; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 button:hover {
